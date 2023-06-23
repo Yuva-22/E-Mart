@@ -1,9 +1,13 @@
 import Data from "./Data";
 import "./Data.css";
-import i1 from "../images/img1.jpeg";
-import i3 from "../images/img1.jpeg";
-import i5 from "../images/img1.jpeg";
-import i7 from "../images/img1.jpeg";
+import i1 from "../images/img2.jpeg";
+import i2 from "../images/img3.jpg";
+import i3 from "../images/img4.avif";
+import i4 from "../images/img5.jpeg";
+import i5 from "../images/img6.jpg";
+import i6 from "../images/img7.jpeg";
+import i7 from "../images/img8.jpeg";
+import i8 from "../images/img9.jpeg";
 
 
 
@@ -22,7 +26,7 @@ const Destination = () =>{
         Gravida neque convallis a cras semper. In fermentum 
         posuere urna nec tincidunt praesent semper feugiat."
         img1={i1}
-        img2={i1}
+        img2={i2}
         />
 
        <Data
@@ -37,7 +41,7 @@ const Destination = () =>{
         Turpis massa tincidunt dui ut. Vulputate sapien nec 
         sagittis aliquam malesuada."
         img1={i3}
-        img2={i1}
+        img2={i4}
         />
 
         <Data
@@ -51,7 +55,7 @@ const Destination = () =>{
         Felis eget nunc lobortis mattis aliquam faucibus purus. 
         Nibh nisl condimentum id venenatis a."
         img1={i5}
-        img2={i1}
+        img2={i6}
         />
 
         <Data
@@ -67,7 +71,7 @@ const Destination = () =>{
         porttitor leo a diam sollicitudin tempor id. Amet 
         risus nullam eget felis eget nunc. "
         img1={i7}
-        img2={i1}
+        img2={i8}
         />
 
 
