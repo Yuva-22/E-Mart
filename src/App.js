@@ -1,13 +1,20 @@
 import './App.css';
-import Navbar from "./components/Navbar";
-import img1 from "./images/img1.jpeg";
+import { Route, Routes } from "react-router-dom";
+import Home from "./routes/Home";
+import About from "./routes/About";
+import Contact from "./routes/Contact";
+import Service from "./routes/Service";
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <img className="hero-img" alt="hero img" src={img1} />
+      <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/contact" element={<Contact/>}/>
+          <Route path="/service" element={<Service/>}/>
+          <Route path="/about" element={<About/>}/>
+        </Routes>
     </div>
   );
 }
