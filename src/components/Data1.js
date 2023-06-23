@@ -1,13 +1,13 @@
 import Data from "./Data";
 import "./Data.css";
-import i1 from "../images/img2.jpeg";
+import i1 from "../images/img2.jpg";
 import i2 from "../images/img3.jpg";
 import i3 from "../images/img4.avif";
-import i4 from "../images/img5.jpeg";
+import i4 from "../images/img5.jpg";
 import i5 from "../images/img6.jpg";
-import i6 from "../images/img7.jpeg";
-import i7 from "../images/img8.jpeg";
-import i8 from "../images/img9.jpeg";
+import i6 from "../images/img7.png";
+import i7 from "../images/img8.webp";
+import i8 from "../images/img9.jpg";
 
 
 
